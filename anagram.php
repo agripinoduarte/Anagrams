@@ -26,7 +26,6 @@ class Anagram
 			unset($this->used[$k]);
 		}
 
-		print_r($this->words);
 		return $this->words;
 	}
 
